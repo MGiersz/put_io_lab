@@ -71,7 +71,7 @@ System sprawdzający, poprawność danych i ogólna obsluga aukcji.
 <a id="uc1"></a>
 ### UC1: Wystawienie produktu na aukcję
 
-**Aktorzy:** [Sprzedający](#ac1)
+**Aktorzy:** [Sprzedający](#ac1) , [System](#ac3) 
 
 **Scenariusz główny:**
 1. [Sprzedający](#ac1) zgłasza do systemu chęć wystawienia produktu na aukcję.   ([UC1](#uc1))
@@ -91,12 +91,12 @@ System sprawdzający, poprawność danych i ogólna obsluga aukcji.
 <a id="uc2"></a>
 ### UC2: Sprawdzenie statusu akcji
 
-**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2), ...
+**Aktorzy:** [Sprzedający](#ac1), [System](#ac3), ...
 
 **Scenariusz główny:**
 1. [Sprzedający](#ac1) lub [Kupujący](#ac2) zgłasza chęć sprawdzenia statusu aukcji.
-2. System przeszukuje aktywne aukcje.
-3. System wyświetla aktualny stan aukcji, w tym aktualną najwyższą ofertę i czas pozostały do zakończenia.
+2. [System](#ac3)  przeszukuje aktywne aukcje.
+3. [System](#ac3)  wyświetla aktualny stan aukcji, w tym aktualną najwyższą ofertę i czas pozostały do zakończenia.
 **Scenariusze alternatywne:** 
 
 4.A. **Brak aktywnej aukcji.**
