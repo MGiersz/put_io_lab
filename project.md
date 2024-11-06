@@ -91,16 +91,16 @@ System sprawdzający, poprawność danych i ogólna obsluga aukcji.
 <a id="uc2"></a>
 ### UC2: Sprawdzenie statusu akcji
 
-**Aktorzy:** [Sprzedający](#ac1), [System](#ac3), ...
+**Aktorzy:** [Sprzedający](#ac1), [System](#ac3), 
 
 **Scenariusz główny:**
 1. [Sprzedający](#ac1) lub [Kupujący](#ac2) zgłasza chęć sprawdzenia statusu aukcji.
-2. [System](#ac3)  przeszukuje aktywne aukcje.
-3. [System](#ac3)  wyświetla aktualny stan aukcji, w tym aktualną najwyższą ofertę i czas pozostały do zakończenia.
+2. [System](#ac3)  
+3. [System](#ac3)  
 **Scenariusze alternatywne:** 
 
 4.A. **Brak aktywnej aukcji.**
-   * 4.A.1. System informuje, że nie ma aktywnych aukcji do wyświetlenia.
+   * 4.A.1.
 
 ---
 
