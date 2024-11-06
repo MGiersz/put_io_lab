@@ -75,10 +75,10 @@ System sprawdzający, poprawność danych i ogólna obsluga aukcji.
 
 **Scenariusz główny:**
 1. [Sprzedający](#ac1) zgłasza do systemu chęć wystawienia produktu na aukcję.   ([UC1](#uc1))
-2. System prosi o podanie danych produktu i ceny wywoławczej.([SY1](#sy1))
+2. [System](#ac3) prosi o podanie danych produktu i ceny wywoławczej.([SY1](#sy1))
 3. [Sprzedający](#ac1) podaje dane produktu oraz cenę wywoławczą. ([UC2](#uc2))
-4. System weryfikuje poprawność danych. ([SY1](#sy1))
-5. System informuje o pomyślnym wystawieniu produktu na aukcję. ([SY1](#sy1))
+4. [System](#ac3) weryfikuje poprawność danych. ([SY1](#sy1))
+5. [System](#ac3) informuje o pomyślnym wystawieniu produktu na aukcję. ([SY1](#sy1))
 
 **Scenariusze alternatywne:** 
 
