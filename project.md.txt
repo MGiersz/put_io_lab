@@ -50,10 +50,14 @@ Osoba chcąca zakupić produkt na aukcji.
 
 [Sprzedający](#ac1):
 * [UC1](#uc1): Wystawienie produktu na aukcję
-* ...
+* [UC2](#uc2): Podanie danych produktu i ceny
+
 
 [Kupujący](#ac2)
-* ...
+* [BR1](#br1): Oferowanie najwyzszej oferty za produkt na ukcji
+* [BR2](#br2): Oferowanie najwyzszej oferty za produkt na ukcji
+
+
 
 ---
 <a id="uc1"></a>
@@ -62,11 +66,11 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Sprzedający](#ac1)
 
 **Scenariusz główny:**
-1. [Sprzedający](#ac1) zgłasza do systemu chęć wystawienia produktu na aukcję.
-2. System prosi o podanie danych produktu i ceny wywoławczej.
-3. [Sprzedający](#ac1) podaje dane produktu oraz cenę wywoławczą.
-4. System weryfikuje poprawność danych.
-5. System informuje o pomyślnym wystawieniu produktu na aukcję.
+1. [Sprzedający](#ac1) zgłasza do systemu chęć wystawienia produktu na aukcję.   ([UC1](#uc1))
+2. [System](#ac3) prosi o podanie danych produktu i ceny wywoławczej.
+3. [Sprzedający](#ac1) podaje dane produktu oraz cenę wywoławczą. ([UC2](#uc2))
+4. [System](#ac3) weryfikuje poprawność danych.
+5. [System](#ac3) informuje o pomyślnym wystawieniu produktu na aukcję.
 
 **Scenariusze alternatywne:** 
 
